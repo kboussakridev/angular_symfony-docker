@@ -1,0 +1,12 @@
+<!-- app.html -->
+<nav class="navbar bg-black">
+  <div class="container-fluid">
+    <a [routerLink]="['/customers']" class="text-white navbar-brand">Clients</a>
+    <form class="d-flex" role="search">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
